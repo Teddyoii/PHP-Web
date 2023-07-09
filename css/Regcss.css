@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--navi bar-start-*/
+.mainl{
+	background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)),url("../images/Kitchen12.jpg");
+	background-size: cover;
+	position: relative;
+	background-position:center;
+	width: 208vh;
+	height: 110vh;
+}
+.navbar{
+	width:88%;
+	margin:auto;
+	padding:15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 8px 12px;
+	position: relative;
+	
+	
+}
+.navbar ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #584D4D;
+	font-size: 20px;
+	position: relative;
+	
+}
+.navbar ul li :hover{
+	background-color: #fff;
+	border: 1PX #1E15F8;
+	color:#C481A0;
+	margin: 5px;
+}
+.log{
+	
+background-color: #F7181C;
+    width: 340px;
+    height: 520px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 400px;
+    left: 750px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  
+ 
+
+}
+.prof{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 28px;
+	color:#85D2F3;
+	
+}
+.log p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+	color:#D6F5F3;
+}
+.log input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.log input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.log input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+		background-image: linear-gradient(to right, #32be8f,  #69ACA3, #69ACA3, #69ACA3 );
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.log input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#415BF4;
+    color: #000;
+}
+
+.log a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.log a:hover
+{
+    color:#7A7272;
+}
+
